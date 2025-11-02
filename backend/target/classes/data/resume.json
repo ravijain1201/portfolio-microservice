@@ -1,0 +1,108 @@
+{
+  "personalInfo": {
+    "name": "Ravi Jain",
+    "title": "Technical Lead • Full‑Stack / Java",
+    "location": "Mumbai, 410206",
+    "phone": "+91 84591 53078",
+    "email": "ravi.jain1201@gmail.com",
+    "summary": "Mentoring and leading teams of 8–10 engineers delivering robust applications for US clients in BFSI. ~9.5 years building scalable, user‑centric systems across large‑scale architectures. Trading enthusiast."
+  },
+  "profile": "Software Engineer and Technical Lead with proven experience delivering high‑impact features, leading reviews, unblocking teams, and owning production readiness. Adept at full‑stack development, performance tuning, and secure, cloud‑ready deployments.",
+  "experience": [
+    {
+      "position": "Senior Consultant",
+      "company": "Cognizant, Mumbai",
+      "location": "Mumbai",
+      "duration": "Jan 2023 – Present",
+      "responsibilities": [
+        "Technical Lead for US client programs in BFSI; mentoring 8–10 engineers.",
+        "Architecting services with Java 21, Spring Boot, Maven; containerizing with Docker.",
+        "Owning CI/CD pipelines, code reviews, and production stability; collaborating across time zones."
+      ]
+    },
+    {
+      "position": "Senior Consultant",
+      "company": "TCS, Mumbai",
+      "location": "Mumbai",
+      "duration": "Jan 2023 – Present",
+      "responsibilities": [
+        "Technical Lead for US client programs in BFSI; mentoring 8–10 engineers.",
+        "Architecting services with Java 21, Spring Boot, Maven; containerizing with Docker.",
+        "Owning CI/CD pipelines, code reviews, and production stability; collaborating across time zones."
+      ]
+    },
+    {
+      "position": "Team Lead",
+      "company": "Capgemini Software, Mumbai",
+      "location": "Mumbai",
+      "duration": "Aug 2021 – Dec 2022",
+      "responsibilities": [
+        "Built front‑end apps with React, Redux, and REST APIs; Git for version control.",
+        "Led and mentored developers; delivered solutions in the BFSI domain."
+      ]
+    },
+    {
+      "position": "Team Lead",
+      "company": "Newgen Software, Noida",
+      "location": "Noida",
+      "duration": "Jul 2018 – Sep 2021",
+      "responsibilities": [
+        "Implemented Newgen products (iBPS, OmniDocs) per client needs.",
+        "Worked across JavaScript, MySQL (advanced), Core Java, Angular.",
+        "Awards: Rising Star, Excellence Award, High Five Award for US deliveries.",
+        "Certified NCIP I & II (Newgen certifications)."
+      ]
+    },
+    {
+      "position": "Software Engineer",
+      "company": "Mphasis, Bengaluru",
+      "location": "Bengaluru",
+      "duration": "Feb 2016 – Jun 2018",
+      "responsibilities": [
+        "Front‑end developer for business process applications (Change/Supply/Incident Mgmt.).",
+        "Worked on AngularJS & Angular 4."
+      ]
+    },
+    {
+      "position": "Software Engineer",
+      "company": "Lift India, Noida",
+      "location": "Noida",
+      "duration": "Jul 2015 – Jan 2016",
+      "responsibilities": [
+        "Design developer for ride‑sharing application.",
+        "Used Google Maps APIs; Android app design & development; end‑to‑end flow from ride offer to selection."
+      ]
+    }
+  ],
+  "skills": {
+    "backend": ["Java 21", "Spring Boot", "Maven", "REST • JWT", "Microservices"],
+    "frontend": ["React", "Redux", "Angular", "TypeScript/JS", "HTML • CSS"],
+    "tools": ["Docker", "Cloud (AWS/Azure)", "Git • CI/CD", "MySQL (Advanced)"]
+  },
+  "certifications": [
+    "NCFM — Investment Analysis & Portfolio Management (2023) · NSE — NCFM‑00001385465",
+    "NCFM — Equity Derivatives: Beginner's Module (2023) · NSE — NCFM‑00001385465",
+    "Mutual Funds: Beginner's Module (2022) · NSE Academy — NCFM‑00001385465",
+    "Financial Markets: Beginner's Module (2022) · NSE Academy — NCFM‑00001385465",
+    "NCIP I & II — Newgen Product Certifications"
+  ],
+  "awards": [
+    "Appreciation Certificate — Newgen Software (2020)",
+    "High Five Award — Newgen Software (2020)",
+    "Rising Star — Newgen Software (2019)"
+  ],
+  "education": {
+    "degree": "B.Tech (Information Technology)",
+    "college": "IEC College of Engg & Tech, Greater Noida",
+    "university": "Dr. A.P.J. Abdul Kalam Technical University, U.P.",
+    "percentage": "68.56%",
+    "class12": "CBSE 12 (Non‑Medical Science) — 72%",
+    "class10": "CBSE 10 — 71%"
+  },
+  "contact": {
+    "email": "ravi.jain1201@gmail.com",
+    "phone": "+91 84591 53078",
+    "location": "Mumbai, 410206"
+  },
+  "interests": "Intermediate in Trading Technical Analysis, Futures & Options. Enjoys building side projects, exploring cloud services, and performance tuning."
+}
