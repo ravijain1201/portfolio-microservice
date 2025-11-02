@@ -1,0 +1,28 @@
+apiVersion: apps/v1alpha1
+kind: ContainerApp
+metadata:
+  name: time-project
+spec:
+  containers:
+  - name: backend
+    image: myregistry.azurecr.io/spring-backend:latest
+    resources:
+      cpu: 1
+      memory: 2Gi
+    env:
+    - name: SERVER_PORT
+      value: "8080"
+  - name: frontend
+    image: myregistry.azurecr.io/react-frontend:latest
+    resources:
+      cpu: 0.5
+      memory: 1Gi
+    env:
+    - name: REACT_APP_BACKEND_URL
+      value: "http://localhost:8080"
+  ingress:
+    external: true
+    targetPort: 80
+  scale:
+    minReplicas: 1
+    maxReplicas: 3

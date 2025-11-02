@@ -1,0 +1,37 @@
+apiVersion: 2019-12-01
+location: eastus
+name: time-project-app
+properties:
+  containers:
+  - name: backend
+    properties:
+      image: your-registry.azurecr.io/spring-backend:latest
+      resources:
+        requests:
+          cpu: 1
+          memoryInGb: 1
+      ports:
+      - port: 8080
+        protocol: TCP
+  - name: frontend
+    properties:
+      image: your-registry.azurecr.io/react-frontend:latest
+      resources:
+        requests:
+          cpu: 0.5
+          memoryInGb: 0.5
+      ports:
+      - port: 80
+        protocol: TCP
+      environmentVariables:
+      - name: REACT_APP_BACKEND_URL
+        value: http://localhost:8080
+  osType: Linux
+  ipAddress:
+    type: Public
+    ports:
+    - protocol: TCP
+      port: 80
+    - protocol: TCP
+      port: 8080
+type: Microsoft.ContainerInstance/containerGroups
